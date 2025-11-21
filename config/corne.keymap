@@ -44,28 +44,28 @@
 
         LetterLayer {
             bindings = <
-&none  &as Q  &as W  &as E      &as R  &as T        &as Y      &as U  &as I          &as O    &as P     &none
-&none  &as A  &as S  &as D      &as F  &as G        &as H      &as J  &as K          &as L    &as SEMI  &none
-&none  &as Z  &as X  &as C      &as V  &as B        &as N      &as M  &as COMMA      &as DOT  &as FSLH  &none
-                     &kp LCTRL  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp BACKSPACE
+&none  &as Q  &as W  &as E             &as R  &as T            &as Y      &as U  &as I              &as O    &as SEMICOLON  &none
+&none  &as A  &as S  &as D             &as F  &as G            &as H      &as J  &as K              &as L    &as P          &none
+&none  &as Z  &as X  &as C             &as V  &as B            &as N      &as M  &as COMMA          &as DOT  &as FSLH       &none
+                     &kp LEFT_COMMAND  &mo 1  &kp BACKSPACE    &kp SPACE  &mo 2  &kp RIGHT_COMMAND
             >;
         };
 
         SymbolLayer {
             bindings = <
-&none  &none  &kp AT      &kp HASH     &none  &none           &kp AMPERSAND   &kp PIPE          &kp EXCL              &kp QUESTION           &kp EQUAL          &none
-&none  &none  &kp DOLLAR  &kp PERCENT  &none  &kp PLUS        &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &none
-&none  &none  &none       &none        &none  &kp ASTERISK    &kp LESS_THAN   &kp GREATER_THAN  &kp LBKT              &kp RBKT               &kp SINGLE_QUOTE   &none
-                          &kp LCTRL    &none  &kp TAB         &kp BSPC        &none             &kp ENTER
+&none  &none            &kp AT         &kp HASH          &kp PLUS   &none           &none           &none             &none                 &none                  &none              &none
+&none  &kp EXCLAMATION  &kp DOLLAR     &kp PERCENT       &kp EQUAL  &kp PLUS        &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &none
+&none  &none            &kp AMPERSAND  &kp PIPE          &kp MINUS  &kp ASTERISK    &kp LESS_THAN   &kp GREATER_THAN  &kp LBKT              &kp RBKT               &kp SINGLE_QUOTE   &none
+                                       &kp LEFT_COMMAND  &none      &none           &kp TAB         &kp RIGHT_SHIFT   &kp ENTER
             >;
         };
 
         NumberAndFn {
             bindings = <
-&none  &none           &kp UP_ARROW    &none             &none  &none    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none         &none  &none
-&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &none  &none    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &none  &none
-&none  &none           &none           &none             &none  &none    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none         &none  &none
-                                       &kp LEFT_CONTROL  &none  &none    &none         &none         &none
+&none  &kp PAGE_UP    &none     &kp UP_ARROW    &none            &kp LA(TAB)      &none  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3  &none         &none
+&none  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(TAB)      &none  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_0  &none
+&none  &none          &none     &none           &none            &none            &none  &kp NUMBER_7  &kp NUMBER_8       &kp NUMBER_9  &none         &none
+                                &none           &none            &kp BACKSPACE    &none  &none         &kp RIGHT_COMMAND
             >;
         };
     };
