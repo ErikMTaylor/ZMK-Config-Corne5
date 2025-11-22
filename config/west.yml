@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: rick
+    - name: nice-view-glitch-rick
       remote: ErikMTaylor/nice-view-glitch-rick
       revision: main
   self:
