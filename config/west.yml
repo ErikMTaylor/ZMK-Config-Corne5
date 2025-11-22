@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: ErikMTaylor/nice-view-glitch-rick
-      url-base: https://github.com/ErikMTaylor/nice-view-glitch-rick
+    - name: ErikMTaylor
+      url-base: https://github.com/ErikMTaylor
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: nice-view-glitch-rick
-      remote: ErikMTaylor/nice-view-glitch-rick
+      remote: ErikMTaylor
       revision: main
   self:
     path: config
